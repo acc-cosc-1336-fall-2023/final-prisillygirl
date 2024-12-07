@@ -22,12 +22,12 @@ class Stock:
         goog = Stock("GOOG", "Google")
         msft = Stock("MSFT", "Microsoft")
 
-        stk_dict = {
+        stock_dict = {
         aapl.get_symbol : aapl.get_company_name,
         cat.get_symbol : cat.get_company_name,
         ek.get_symbol : ek.get_company_name,
         goog.get_symbol : goog.get_company_name,
         msft.get_symbol : msft.get_company_name,
         }
-        for stock in stk_dict:
+        for stock in stock_dict:
             print (stock)
